@@ -14,15 +14,15 @@ const lines = [
   [2, 4, 6],
   ];
 const calculateWinner = (squares) => {
-    for (let i = 0; i < this.lines.length; i++) {
-      const [a, b, c] = this.lines[i];
+    for (let i = 0; i < lines.length; i++) {
+      const [a, b, c] = lines[i];
       if (squares[a] && 
         squares[a] === squares[b] && 
         squares[a] === squares[c]) {
-            return {player: squares[a], winningLine: this.lines[i]};
+            return {winner: squares[a], winningLine: lines[i]};
       }
     }
-    return {player: null, winningLine: []};
+    return {winner: null, winningLine: []};
 };
 
 function App() {
