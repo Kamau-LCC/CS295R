@@ -1,0 +1,45 @@
+.App {
+	text-align: center;
+	flex-shrink: 1;
+	margin: 2px;
+	padding: 10px;
+	border: .05em solid #303030f5;
+	border-radius: 20px;
+	background-color:#faf6f094;
+	text-align: center;
+	box-shadow: 4px 5px 10px 2px #000000;
+}
+.cardUI {
+	flex-shrink: 1;
+	margin: 2px;
+	padding: 10px;
+	border: .05em solid #303030f5;
+	border-radius: 20px;
+	background-color:#faf6f094;
+	text-align: center;
+	box-shadow: 4px 5px 10px 2px #000000;
+}
+.formUI {
+	flex-shrink: 1;
+	margin: 2px;
+	padding: 10px;
+	border: .15em solid #303030f5;
+	border-radius: 20px;
+	background-color: #838383d7;
+	text-align: center;
+  box-shadow: 4px 5px 10px 2px #000000;
+}
+.btnUI:hover {
+	background-color: rgb(166, 196, 251);
+  }
+  .btnUI {
+	/* min-width: 100px; */
+	flex-shrink: 1;
+	margin: 1px;
+	border: .05em solid #252525e5;
+	border-radius: 100px;
+	background-color: #668b669c;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 4px 5px 10px 2px #000000;
+  }
